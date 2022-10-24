@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS Alumno</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="estilo_alumno.css">
+</head>
+<body>
+  <nav>
+    <ul>
+	    <li>
+        <a href="index.html">Inicio</a>
+      </li>
+	    <li>
+        <a href="alumno.html">Alumno</a>
+      </li>
+	    <li>
+        <a href="https://www.freecodecamp.org/news/html5-tags-you-might-not-know/">Etiquetas HTML</a>
+      </li>
+	    <li>
+        <a href="https://www.freecodecamp.org/news/how-to-center-a-div-with-css-10-different-ways/">Centrar un DIV</a>
+      </li>
+    </ul>
+  </nav>
+    <section>
+        <article>  
+          <div>
+              <video controls>
+                  <source src="/video/codificando.webm" type = "video/webm">
+                  <source src="/video/codificando.mp4" type = "video/mp4">
+                  <source src="/video/codificando.ogx" type = "video/ogg">
+                  <source src="/video/codificando.mov" type = "video/mov">
+              </video>
+              <p class = "texto">Video publicado en los formatos: MP4, OGG, WebM y MOV</p>
+          </div>
+          <div>
+              <div class="contenedorVideo">
+                  <iframe src="https://www.youtube.com/embed/y78hdOwbG1o"  frameborder = "0" controls="1" allowfullscreen ></iframe>
+              </div>
+              <p class = "texto">Video de YouTube</p>
+          </div>
+          <div class="contenedorWeb">
+              <iframe src="https://www.internetsociety.org/es/"  frameborder="0"  >
+              </iframe>
+              <p class = "texto">Ejemplo de web responsive</p>
+          </div>
+        </article>
+        <aside>
+            <div class="tarjeta">
+                <a href="https://validator.w3.org/">
+                  <img src="img/validationHTML.png" >
+                </a> 
+                <p class = "texto">Servicio de validación HTML del W3C</p>
+            </div>
+            <div class="tarjeta">
+                <a href="https://jigsaw.w3.org/css-validator/">
+                  <img src="img/validationCSS.png" >
+                </a> 
+                <p class = "texto">Servicio de validación CSS del W3C</p>
+            </div>
+            <div class="tarjeta">
+                <a href="https://caniuse.com/">
+                  <img src="img/caniuse.png" >
+                </a> 
+                <p class="texto">Comprobar compatibilidades web</p>
+            </div> 
+        </aside>
+    </section>
+    <footer>&copy; Arnau González</footer>
+</body>
+</html>
